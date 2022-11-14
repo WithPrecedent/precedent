@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "precedent"
+version = "0.1.0"
+description = "Data science made easy"
+authors = ["Corey Rayburn Yung <coreyrayburnyung@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+homepage = "https://github.com/WithPrecedent/precedent"
+repository = "https://github.com/WithPrecedent/precedent"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+more_itertools = "^9.0.0"
+amos = "^0.1.10"
+bobbie = "^0.1.1"
+holden = "^0.1.5"
+miller = "^0.1.4"
+nagata = "^0.1.3"
+borges = "^0.1.0"
+carver = "^0.1.0"
+klint = "^0.1.0"
+ebert = "^0.1.0"
+comte = "^0.1.0" 
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
